@@ -30,7 +30,7 @@ function closeModal() {
 
 document.getElementById("pickup-1")?.addEventListener("click", () => {
   openModal(
-    "images/pickup-1.jpeg",
+    "/images/pickup-1.jpeg",
     "ローズデコレーションケーキ",
     "愛と情熱を象徴するバラをふんだんに使用した「バレンタイン・ローズデコレーションケーキ」は、" +
       "バレンタインコレクションの中でも特に目を引く逸品です。深い赤と優しいピンクのバラが織りなすロマンティックなデザインは、" +
@@ -41,7 +41,7 @@ document.getElementById("pickup-1")?.addEventListener("click", () => {
 
 document.getElementById("pickup-2")?.addEventListener("click", () => {
   openModal(
-    "images/pickup-2.jpeg",
+    "/images/pickup-2.jpeg",
     "チョコレートボックス",
     "バレンタインコレクションの星、「愛のシンフォニー チョコレートボックス」は、心を込めて選ばれた様々な形と味のチョコレートで満たされています。" +
       "この豪華なアソートメントには、クラシックなミルクチョコレート、濃厚なダークチョコレート、そして愛らしいピンクのホワイトチョコレートが含まれており、" +
@@ -51,7 +51,7 @@ document.getElementById("pickup-2")?.addEventListener("click", () => {
 
 document.getElementById("pickup-3")?.addEventListener("click", () => {
   openModal(
-    "images/pickup-3.jpeg",
+    "/images/pickup-3.jpeg",
     "ハートフェルト・ディライトケーキ",
     "愛の日に相応しい、ハートフェルト・ディライト ケーキは、情熱と純粋な愛情を象徴するスイーツです。" +
       "この魅力的なケーキは、リッチなチョコレートムースとバニラビーンズのクリームが層になっており、" +
@@ -61,7 +61,7 @@ document.getElementById("pickup-3")?.addEventListener("click", () => {
 
 document.getElementById("pickup-4")?.addEventListener("click", () => {
   openModal(
-    "images/pickup-4.jpeg",
+    "/images/pickup-4.jpeg",
     "ベルベット・アフェクション ケーキ",
     "バレンタインコレクションの中でも際立つ「ベルベット・アフェクション ケーキ」は、愛の深さを象徴するスイーツです。" +
       "滑らかなチョコレートのベルベットのような質感と、心を込めたリボンのデコレーションが特徴です。" +
@@ -71,7 +71,7 @@ document.getElementById("pickup-4")?.addEventListener("click", () => {
 
 document.getElementById("pickup-5")?.addEventListener("click", () => {
   openModal(
-    "images/pickup-5.jpeg",
+    "/images/pickup-5.jpeg",
     "スウィートハーモニー アソートメント",
     "愛と甘さを詰め込んだ「スウィートハーモニー アソートメント」は、バレンタインデーの喜びを分かち合うための完璧なコレクションです。" +
       "ピンクと赤の色合いが目を引くこのアソートメントには、手作りのマカロン、チョコレートカバーのクッキー、そして愛情を込めてデコレートされたフォンダンのスイーツが含まれています。" +
@@ -81,7 +81,7 @@ document.getElementById("pickup-5")?.addEventListener("click", () => {
 
 document.getElementById("pickup-6")?.addEventListener("click", () => {
   openModal(
-    "images/pickup-6.jpeg",
+    "/images/pickup-6.jpeg",
     "カプリシャス・ハート クッキーセット",
     "愛の多様性を祝う「カプリシャス・ハート クッキーセット」は、バレンタインデーに甘いサプライズを提供します。" +
       "このセットには、チョコレートでデコレーションされたハート型のクッキーや、クリームで飾られた愛らしいスイーツが豊富に詰められています。" +
