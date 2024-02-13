@@ -5,9 +5,131 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.scss" />
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Kalnia:wght@500&family=Libre+Baskerville&family=Montserrat:wght@600&family=Noto+Sans+JP:wght@300&family=Zen+Kaku+Gothic+New:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script:wght@500&family=Kalnia:wght@500&family=Libre+Baskerville&family=Montserrat:wght@600&family=Noto+Sans+JP:wght@300&family=Zen+Kaku+Gothic+New:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script:wght@500&family=Kalnia:wght@500&family=Libre+Baskerville&family=Merriweather:ital@1&family=Montserrat:wght@600&family=Noto+Sans+JP:wght@300&family=Zen+Kaku+Gothic+New:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <title>chocolate shop</title>
   </head>
   <body>
-    <div id="app">aaa</div>
+    <div id="app">
+      <section class="hero">
+        <nav class="menu-list">
+          <h1 class="hero-h1">
+            <a href="/">Chocolate<br />Shop</a>
+          </h1>
+          <ul class="menu-items">
+            <li class="menu-item"><a href="/#about">About</a></li>
+            <li class="menu-item"><a href="/#pickup">Pickup</a></li>
+            <li class="menu-item"><a href="/#access">Access</a></li>
+          </ul>
+        </nav>
+        <div class="hero-img">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="about-content">
+          <div class="about-img">
+            <img src="images/chocolate.jpeg" alt="チョコレート" />
+          </div>
+          <div class="about-text">
+            <h2 class="about-h2">
+              至福の味わい、一口で幸せへ誘うチョコレートの魔法
+            </h2>
+            <p class="about-description">
+              当店では、厳選された上質な材料と繊細な技術で作り上げたチョコレートやケーキを取り揃えております。
+              贅沢な甘さと口どけの良さが調和し、お客様に極上の味わいをお届けします。日常の喧騒を忘れ、ひと時の贅沢な幸せに浸るために、
+              ぜひ当店のスイーツをご堪能ください。
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="pickup" class="pickup">
+        <div class="pickup-content">
+          <h2 class="pickup-h2">2024 Valentine Collection</h2>
+          <div class="collections">
+            <div
+              class="collection-item"
+              onclick="openModal('images/pickup-1.jpeg', 'ローズデコレーションケーキ', '愛と情熱を象徴するバラをふんだんに使用した「バレンタイン・ローズデコレーションケーキ」は、バレンタインコレクションの中でも特に目を引く逸品です。深い赤と優しいピンクのバラが織りなすロマンティックなデザインは、愛する人への深い感謝と愛情を表現します。このケーキは、バレンタインデーの甘いサプライズや、大切な記念日に最適です。愛のメッセージを込めたこのケーキで、特別な一日をさらに思い出深いものにしましょう。')"
+            >
+              <img src="images/pickup-1.jpeg" alt="" />
+            </div>
+            <div
+              class="collection-item"
+              onclick="openModal('images/pickup-2.jpeg', 'チョコレートボックス', 'バレンタインコレクションの星、「愛のシンフォニー チョコレートボックス」は、心を込めて選ばれた様々な形と味のチョコレートで満たされています。この豪華なアソートメントには、クラシックなミルクチョコレート、濃厚なダークチョコレート、そして愛らしいピンクのホワイトチョコレートが含まれており、それぞれが独特の味わいを持っています。ロマンチックな赤いバラと柔らかなキャンドルライトに囲まれたこのボックスは、愛のメッセージを伝える最も甘美な方法です。')"
+            >
+              <img src="images/pickup-2.jpeg" alt="" />
+            </div>
+            <div
+              class="collection-item"
+              onclick="openModal('images/pickup-4.jpeg', 'ハートフェルト・ディライトケーキ', '愛の日に相応しい、ハートフェルト・ディライト ケーキは、情熱と純粋な愛情を象徴するスイーツです。この魅力的なケーキは、リッチなチョコレートムースとバニラビーンズのクリームが層になっており、その間にはサクサクのビスケットが隠れています。トップには愛らしいハート型のチョコレートとジューシーなラズベリーで飾り付けられ、バレンタインデーのロマンチックな雰囲気を盛り上げます。')"
+            >
+              <img src="images/pickup-4.jpeg" alt="" />
+            </div>
+            <div
+              class="collection-item"
+              onclick="openModal('images/pickup-3.jpeg', 'ベルベット・アフェクション ケーキ', 'バレンタインコレクションの中でも際立つ「ベルベット・アフェクション ケーキ」は、愛の深さを象徴するスイーツです。滑らかなチョコレートのベルベットのような質感と、心を込めたリボンのデコレーションが特徴です。このケーキは、甘美なミルクチョコレートの層と、愛らしいハート形のアクセントで構成されており、大切な人への献身と情熱を表現するのにふさわしい逸品です。')"
+            >
+              <img src="images/pickup-3.jpeg" alt="" />
+            </div>
+
+            <div
+              class="collection-item"
+              onclick="openModal('images/pickup-7.jpeg', 'スウィートハーモニー アソートメント', '愛と甘さを詰め込んだ「スウィートハーモニー アソートメント」は、バレンタインデーの喜びを分かち合うための完璧なコレクションです。ピンクと赤の色合いが目を引くこのアソートメントには、手作りのマカロン、チョコレートカバーのクッキー、そして愛情を込めてデコレートされたフォンダンのスイーツが含まれています。それぞれの一口サイズのデザートは、特別な日のために丁寧に選ばれ、愛する人との甘い時間を演出します。' )"
+            >
+              <img src="images/pickup-7.jpeg" alt="" />
+            </div>
+            <div
+              class="collection-item"
+              onclick="openModal('images/pickup-6.jpeg', 'カプリシャス・ハート クッキーセット', '愛の多様性を祝う「カプリシャス・ハート クッキーセット」は、バレンタインデーに甘いサプライズを提供します。このセットには、チョコレートでデコレーションされたハート型のクッキーや、クリームで飾られた愛らしいスイーツが豊富に詰められています。各々のクッキーは、独自のデザインと風味を持ち、愛を表現するための完璧な手段です。このセットは、大切な人への思いやりと愛情を伝えるための理想的なギフトです。')"
+            >
+              <img src="images/pickup-6.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="access" class="access">
+        <h2 class="access-h2">Access</h2>
+        <div class="access-content">
+          <div>
+            <div class="access-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.073394073073!2d139.7649363152587!3d35.68123698019123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b7f3a3f3b3d%3A0x1f6e7d6e6f3d3f6e!2z44CSMTUwLTAwMzEg5p2x5Lqs6YO95riv5Yy65Y2D5Luj55Sw5Yy65p2x5Lqs6YO95riv5Yy65Y2D77yS5LiB55uu77yR77yR4oiS77yR77yR!5e0!3m2!1sja!2sjp!4v1633943940733!5m2!1sja!2sjp"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+            <div class="access-info">
+              <p class="access-address">〒150-0031 東京都渋谷区桜丘町26-1</p>
+              <p class="access-tel">TEL: 00-1234-5678</p>
+              <p class="access-time">営業時間: 10:00 - 20:00</p>
+            </div>
+          </div>
+          <div class="shop-img">
+            <img src="images/shop.jpeg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <p class="footer-text">© 2024 Chocolate Shop</p>
+      </section>
+    </div>
   </body>
 </html>
