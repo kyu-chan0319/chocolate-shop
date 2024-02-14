@@ -118,7 +118,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff2e5;
+  // background-color: #fff2e5;
   .about-img {
     width: 360px;
     img {
@@ -134,6 +134,21 @@ ul {
   .about-h2 {
     font-size: 26px;
     font-family: "DM Serif Display", serif;
+    position: relative; // この行を追加
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 2px;
+      background-color: currentColor;
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+    &:hover:after {
+      transform: scaleX(1);
+    }
   }
   .about-description {
     letter-spacing: 0.2em;
@@ -141,6 +156,7 @@ ul {
 }
 
 .pickup {
+  margin-top: -7px;
   background-image: url("../public/images/pickup-bg.png");
   background-position: center top;
   background-size: cover;
@@ -238,10 +254,14 @@ ul {
 
   .modal-content {
     background-color: #fefefe;
-    margin: 10% auto;
+    margin: auto;
     padding: 20px;
     border: 1px solid #888;
     width: 1080px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     .modal-detail {
       display: flex;
       justify-content: space-between;
@@ -282,4 +302,8 @@ ul {
     text-decoration: none;
     cursor: pointer;
   }
+}
+
+.custom-shape-divider-top-1707898272 .shape-fill {
+  fill: #b67888;
 }
