@@ -141,7 +141,7 @@ ul {
 }
 
 .pickup {
-  background-image: url("/images/va202292.png");
+  background-image: url("../public/images/pickup-bg.png");
   background-position: center top;
   background-size: cover;
   box-sizing: border-box;
@@ -154,7 +154,7 @@ ul {
   .pickup-h2 {
     text-align: center;
     font-family: "DM Serif Display", serif;
-    color: #222;
+    color: #fff;
     font-size: 40px;
     letter-spacing: 0.1em;
     margin-top: 0;
